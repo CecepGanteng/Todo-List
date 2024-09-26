@@ -15,7 +15,7 @@ Ini adalah aplikasi Todo List sederhana yang dibangun menggunakan React. Aplikas
 
 1. Clone repository:
     ```bash
-    git clone https://github.com/username/todo-list.git
+    git clone https://github.com/CecepGanteng/Todo-List.git
     ```
 2. Masuk ke direktori proyek:
     ```bash
