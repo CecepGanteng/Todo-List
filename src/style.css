@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+
+*{
+    margin: 0;
+    font-family: "Jersey 15", sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black;
+}
+
+.highPrimary{
+    position: relative;
+    height: 450px;
+}
+
+.taskText{
+    font-size: 30px;
+}
+
+.scrollH{
+    overflow-y: scroll;
+}
+
+.containerBorder{
+    position: relative;
+    border: 1px solid white;
+    border-style: dotted;
+    padding: 30px 20px;
+}
+
+.flexSpaceEvenly{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footer{
+    display: fixed !important;
+}
+
+.container{
+    padding: 30px 20px;
+}
+
+.headline{
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+.box-items{
+    display:flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    border-style: dotted;
+    width: 400px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.box-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h4{
+    font-size: 50px;
+    text-align: left;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+}
+
+input{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    outline: none;
+    padding: 20px 35px;
+    
+}
+
+
+button{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    font-size: 24px;
+    padding: 20px 40px;
+}
+
+button:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+button:active{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.todo-items{
+    padding-left: 10%;
+}
+
+.coretan{
+    text-decoration: line-through;
+}
+
+.todo-items:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
